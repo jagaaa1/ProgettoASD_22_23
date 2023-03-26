@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/jagaj/Documents/jacopo/Uni/Secondo Anno/Algoritmi e Strutture Dati/Laboratorio/LabAlgoritmiEStruttureDati/Progetto
+# Install script for directory: C:/Users/jagaj/Documents/jacopo/Uni/Secondo Anno/Algoritmi e Strutture Dati/Laboratorio/ProgettoASD_22_23/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/jagaj/Documents/jacopo/Uni/Secondo Anno/Algoritmi e Strutture Dati/Laboratorio/LabAlgoritmiEStruttureDati/Progetto/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/jagaj/Documents/jacopo/Uni/Secondo Anno/Algoritmi e Strutture Dati/Laboratorio/ProgettoASD_22_23/src/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/jagaj/Documents/jacopo/Uni/Secondo Anno/Algoritmi e Strutture Dati/Laboratorio/LabAlgoritmiEStruttureDati/Progetto/cmake-build-debug"
+			"value" : "c:/Users/jagaj/Documents/jacopo/Uni/Secondo Anno/Algoritmi e Strutture Dati/Laboratorio/ProgettoASD_22_23/src/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/jagaj/Documents/jacopo/Uni/Secondo Anno/Algoritmi e Strutture Dati/Laboratorio/LabAlgoritmiEStruttureDati/Progetto"
+			"value" : "C:/Users/jagaj/Documents/jacopo/Uni/Secondo Anno/Algoritmi e Strutture Dati/Laboratorio/ProgettoASD_22_23/src"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1095,7 +1095,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/jagaj/Documents/jacopo/Uni/Secondo Anno/Algoritmi e Strutture Dati/Laboratorio/LabAlgoritmiEStruttureDati/Progetto/cmake-build-debug"
+			"value" : "C:/Users/jagaj/Documents/jacopo/Uni/Secondo Anno/Algoritmi e Strutture Dati/Laboratorio/ProgettoASD_22_23/src/cmake-build-debug"
 		},
 		{
 			"name" : "Progetto_IS_TOP_LEVEL",
@@ -1119,7 +1119,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/jagaj/Documents/jacopo/Uni/Secondo Anno/Algoritmi e Strutture Dati/Laboratorio/LabAlgoritmiEStruttureDati/Progetto"
+			"value" : "C:/Users/jagaj/Documents/jacopo/Uni/Secondo Anno/Algoritmi e Strutture Dati/Laboratorio/ProgettoASD_22_23/src"
 		}
 	],
 	"kind" : "cache",

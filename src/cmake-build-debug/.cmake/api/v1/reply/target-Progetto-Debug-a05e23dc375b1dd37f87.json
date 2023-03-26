@@ -89,8 +89,21 @@
 				"role" : "libraries"
 			},
 			{
+				"fragment" : "-Wl,-Bstatic",
+				"role" : "libraries"
+			},
+			{
 				"backtrace" : 2,
 				"fragment" : "-lz",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lwinpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-Bdynamic",
 				"role" : "libraries"
 			},
 			{
