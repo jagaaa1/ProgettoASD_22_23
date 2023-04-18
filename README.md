@@ -5,4 +5,4 @@
 	              /___/                                    
 
 
-![Cert](./src/img/WOMMcert.jpg)
+![Cert](./src/img/WOMMcert.png)
