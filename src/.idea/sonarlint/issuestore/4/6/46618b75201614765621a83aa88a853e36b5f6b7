@@ -1,0 +1,6 @@
+
+[c:S5276"Cimplicit conversion from 'long long' to 'double' may lose precision(ò²˜ÿþÿÿÿÿ
+bc:S52765"Jimplicit conversion loses integer precision: 'unsigned long long' to 'int'(Á‡¼Üúÿÿÿÿ
+3c:S1905"Remove this redundant cast.(Úøï²øÿÿÿÿ
+Cc:S1659"0Define each identifier in a dedicated statement.(À•­÷
+Cc:S1659'"0Define each identifier in a dedicated statement.(À•­÷

@@ -1,0 +1,14 @@
+# Ignore everything:
+*
+
+# Exept:
+
+!*.md
+!*.c
+!*.h
+!*.txt
+!src/
+!src/img/
+!src/cmake-build-debug/*.exe
+
+

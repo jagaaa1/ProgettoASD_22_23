@@ -6,7 +6,7 @@
 #include "string_gen.h"
 
 void string_generator(char **string_array, int strings_number){
-	const char alphabet[3] = {'a', 'b', 'c'};
+	const char alphabet[3] = {'j', 'm', 'n'};
 
 	int len;
 	double const_a = 1000;
@@ -28,6 +28,27 @@ void string_generator(char **string_array, int strings_number){
 			string[k] = string[(k-1) % (period+1)];
 		}
 
+		string[len] = '\0';
+	}
+}
+
+void worst_string_generator(char **string_array, int strings_number){
+
+	int len;
+	double const_a = 1000;
+	double const_b = pow(500, 1.0/(double) (strings_number - 1));
+
+	for(int i = 0; i < strings_number; i++) {
+		double len_d = const_a * pow(const_b, i); // n = |_ A * B^i _|
+		len = (int) len_d;
+		char *string = malloc((len + 1) * sizeof(char));
+		string_array[i] = string;
+
+		for(int j = 0; j < len-1; j++) { // generate period substring
+			string[j] = 'a';
+		}
+
+		string[len-1] = 'b';
 		string[len] = '\0';
 	}
 }

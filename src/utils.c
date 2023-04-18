@@ -71,13 +71,16 @@ void write_results(int results_number, Result **naive_results, Result **smart_re
 
 	lxw_chart_series *naive = chart_add_series(chart, NULL, NULL);
 	chart_series_set_name(naive, "Naive");
-	chart_series_set_categories(naive, "Sheet1", 2, 0, results_number+1, 0);
-	chart_series_set_values(naive, "Sheet1", 2, 1, results_number+1, 1);
+	chart_series_set_categories(naive, sheet->name, 2, 0, results_number+1, 0);
+	chart_series_set_values(naive, sheet->name, 2, 1, results_number+1, 1);
+	chart_series_set_trendline(naive, LXW_CHART_TRENDLINE_TYPE_POWER, 0);
+
 
 	lxw_chart_series *smart = chart_add_series(chart, NULL, NULL);
 	chart_series_set_name(smart, "Smart");
-	chart_series_set_categories(smart, "Sheet1", 2, 3, results_number+1, 3);
-	chart_series_set_values(smart, "Sheet1", 2, 4, results_number+1, 4);
+	chart_series_set_categories(smart, sheet->name, 2, 3, results_number+1, 3);
+	chart_series_set_values(smart, sheet->name, 2, 4, results_number+1, 4);
+	chart_series_set_trendline(smart, LXW_CHART_TRENDLINE_TYPE_LINEAR, 0);
 
 	worksheet_insert_chart(sheet, CELL("H6"), chart);
 }

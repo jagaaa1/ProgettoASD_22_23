@@ -13,4 +13,6 @@
  */
 void string_generator(char **string_array, int string_number);
 
+void worst_string_generator(char **string_array, int strings_number);
+
 #endif //PROGETTO_STRING_GEN_H

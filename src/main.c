@@ -27,7 +27,14 @@ int main() {
 
 	lxw_workbook *file = workbook_new("test_results.xlsx");
 	lxw_worksheet *sheet = workbook_add_worksheet(file, NULL);
+	lxw_worksheet *sheet2 = workbook_add_worksheet(file, NULL);
+
 	write_results(test_n, naive, smart, file, sheet);
+
+	worst_string_generator(strings, test_n);
+	test_execution_time(strings, test_n, naive, smart);
+	write_results(test_n, naive, smart, file, sheet2);
+
 	workbook_close(file);
 
 	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
