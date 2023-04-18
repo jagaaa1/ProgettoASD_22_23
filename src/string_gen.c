@@ -44,7 +44,9 @@ void worst_string_generator(char **string_array, int strings_number){
 		char *string = malloc((len + 1) * sizeof(char));
 		string_array[i] = string;
 
-		for(int j = 0; j < len-1; j++) { // generate period substring
+		// string will be in "aaa...ab" format
+
+		for(int j = 0; j < len-1; j++) {
 			string[j] = 'a';
 		}
 

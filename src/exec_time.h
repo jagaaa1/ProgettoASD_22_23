@@ -28,7 +28,7 @@ double execution_time(const char *string, int (*period)(const char *string));
 /**
  * Registra i risultati dei test del tempo di esecuzione dei due algoritmi nei due array forniti.
  *
- * @param strings array di stringhe su cui effettuare i test
+ * @param strings array di stringhe su cui effettuare i test, le stringhe vengono DEALLOCATE!
  * @param strings_number numero di stringhe in strings
  * @param naive_results array su cui registrare i risultati dell'algoritmo Naive
  * @param smart_results array su cui registrare i risultati dell'algoritmo Smart

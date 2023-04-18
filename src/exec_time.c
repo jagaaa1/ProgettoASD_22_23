@@ -49,13 +49,20 @@ double execution_time(const char *string, int (*period)(const char *string)) {
 }
 
 void test_execution_time(char **strings, int strings_number, Result **naive_results, Result **smart_results) {
+	int cap = 1; // time cap for measurement
 	for(int i = 0; i < strings_number; i++){
 		int len = strlen(strings[i]);
+
 		naive_results[i]->len = len;
-		naive_results[i]->time = execution_time(strings[i], period_naive);
+		if(i && naive_results[i-1]->time > cap) {
+			naive_results[i]->time = naive_results[i-1]->time;
+		} else {
+			naive_results[i]->time = execution_time(strings[i], period_naive);
+		}
 
 		smart_results[i]->len = len;
 		smart_results[i]->time = execution_time(strings[i], period_smart);
+
 		free(strings[i]);
 	}
 }
