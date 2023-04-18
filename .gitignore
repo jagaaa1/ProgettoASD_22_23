@@ -7,9 +7,11 @@
 !*.md
 !*.c
 !*.h
-!*.txt
 !src/
+!src/*.txt
 !src/img/
+!src/img/*
+!src/cmake-build-debug/
 !src/cmake-build-debug/*.exe
 
 
