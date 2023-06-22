@@ -25,7 +25,7 @@ void string_generator(char **string_array, int strings_number){
 		}
 
 		for(int k = period; k < len; k++) { // generate full string from period
-			string[k] = string[(k-1) % (period+1)];
+			string[k] = string[k % period];
 		}
 
 		string[len] = '\0';
